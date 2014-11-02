@@ -7,7 +7,7 @@
 
 ## Getting started
 
-Install vagrant dependencies
+Run the following commands
 
 ```bash
 librarian-puppet install
