@@ -1,0 +1,8 @@
+# Mac temp file
+.DS_Store
+.tmp/
+# Modules handled by puppet librarian
+ops/puppet/modules
+# Vagrant temp should be ignored
+.vagrant
+
