@@ -8,6 +8,9 @@ mod 'puppetlabs-stdlib'
 mod 'maestrodev-rvm'
 mod 'puppetlabs-ruby'
 mod 'puppetlabs-apt'
+mod 'jfryman-nginx'
+mod 'ploperations-bundler'
+mod 'ploperations-unicorn'
 # A module from git
 # mod 'puppetlabs-ntp',
 #   :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'

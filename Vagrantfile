@@ -29,6 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   config.vm.synced_folder "app", "/app"
+  config.vm.synced_folder "app/RestAPI", '/opt/www/RestAPI'
   
   config.librarian_puppet.puppetfile_dir = 'ops'
 
