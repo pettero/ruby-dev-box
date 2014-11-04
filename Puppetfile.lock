@@ -3,9 +3,15 @@ FORGE
   specs:
     maestrodev-rvm (1.6.6)
       puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-apt (1.7.0)
+      puppetlabs-stdlib (>= 2.2.1)
+    puppetlabs-ruby (0.3.0)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
     puppetlabs-stdlib (4.3.2)
 
 DEPENDENCIES
   maestrodev-rvm (>= 0)
+  puppetlabs-apt (>= 0)
+  puppetlabs-ruby (>= 0)
   puppetlabs-stdlib (>= 0)
 
